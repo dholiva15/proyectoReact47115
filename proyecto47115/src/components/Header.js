@@ -1,5 +1,5 @@
-import Navbar from "./Navbar";
-import CartWidget from "./CartWidget";
+import Navbar from "./Navbar/Navbar"
+import CartWidget from "./CartWidget/CartWidget";
 
 
 function Header(){

@@ -1,4 +1,4 @@
-import "../Css/Estilos.css"
+import "../Css/estilos.css"
 
 
 function Navbar(){

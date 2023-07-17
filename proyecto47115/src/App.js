@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import ItemListContainer from "./components/itemListContainer";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 
 
 
@@ -17,7 +17,7 @@ function App() {
 
       <div>  
 
-      <ItemListContainer  greeting="Hola Probando el item List Container"/>
+      <ItemListContainer  greeting="Bienvenidoos"/>
       
 
 

@@ -1,5 +1,5 @@
 import "bootstrap-icons/font/bootstrap-icons.css"
-import "../Css/Estilos.css"
+
 
 
 function CartWidget(){
@@ -9,6 +9,7 @@ function CartWidget(){
     return(
         <div>
                 <i className="bi bi-cart" ></i>
+                0
 
         </div>
     )

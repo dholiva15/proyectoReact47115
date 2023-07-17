@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from "./App";
-import "./Css/Estilos.css"
+import "./components/Css/estilos.css"
 
 
 const el = document.getElementById("root");
