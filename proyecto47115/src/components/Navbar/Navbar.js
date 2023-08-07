@@ -1,26 +1,35 @@
 import "../Css/estilos.css"
 
+import CartWidget from "../CartWidget/CartWidget"
+import { NavLink, Link } from 'react-router-dom'
+
 
 function Navbar(){
 
     return(
        
        <div>
+
+        <section className="header">
+           
+           <Link to={'/'}> <h1 className="titulo"> Polo  </h1> </Link>
+            
+            <CartWidget/>
+
+        </section>
+
+
+
+
        <nav className="navbarHeader">
+            
+                   
             <ul className = "navbar">
 
-                <li >
-                    <a> Home </a>
-                </li>
-                <li>
-                    <a> Juegos de Mesa </a>
-                </li>
-                <li>
-                    <a> Libros </a>
-                </li>
-                <li>
-                    Snacks
-                </li>
+            <NavLink to={`category/juegos`}/>
+            <NavLink to={`category/libros`}/>   
+            <NavLink to={`category/snacks`}/>   
+
 
 
             </ul>

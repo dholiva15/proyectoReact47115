@@ -9,7 +9,7 @@ function CartWidget(){
     return(
         <div>
                 <i className="bi bi-cart" ></i>
-                0
+                1
 
         </div>
     )
