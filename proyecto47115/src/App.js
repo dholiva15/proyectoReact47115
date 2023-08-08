@@ -36,15 +36,6 @@ function App() {
 
       
 
-      <div>  
-
-      <ItemListContainer  greeting="Bienvenidoos"/>
-      <ItemDetailContainer />
-      
-
-
-
-      </div>
 
     
         
