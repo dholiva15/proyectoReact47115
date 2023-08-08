@@ -5,7 +5,8 @@ function ItemList({products}){
 
 
     return(
-        <div className="listGroup">
+        
+        <div className="columns">
 
             {products.map(prod=> <Item key={prod.id} {...prod}/>)}
 

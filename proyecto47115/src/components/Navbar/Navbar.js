@@ -1,7 +1,10 @@
 import "../Css/estilos.css"
 
 import CartWidget from "../CartWidget/CartWidget"
-import { NavLink, Link } from 'react-router-dom'
+import {  Link } from 'react-router-dom'
+
+import NavItem from "./NavItem"
+
 
 
 function Navbar(){
@@ -22,19 +25,10 @@ function Navbar(){
 
 
        <nav className="navbarHeader">
+
+          <NavItem/>
             
-                   
-            <ul className = "navbar">
-
-            <NavLink to={`category/juegos`}/>
-            <NavLink to={`category/libros`}/>   
-            <NavLink to={`category/snacks`}/>   
-
-
-
-            </ul>
-
-
+            
         </nav>
 
         </div>
