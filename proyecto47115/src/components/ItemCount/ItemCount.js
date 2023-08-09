@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import "./ItemCount.css"
+
 
 function ItemCount({stock, initial, onAdd}){
 
@@ -22,16 +22,16 @@ function ItemCount({stock, initial, onAdd}){
     
 
     return(
-        <div className='counter'>
+        <div>
 
-            <div className='controls'>
-                <button className='button button1' onClick={decrement}> -  </button>
-                <h4 className='numero'> {quantity}</h4>
-                <button className='button button2' onClick={increment}> + </button>
+            <div>
+                <button onClick={decrement}> -  </button>
+                <h4 > {quantity}</h4>
+                <button onClick={increment}> + </button>
             </div>
 
             <div>
-                <button className='button' onClick={()=>onAdd(quantity)} disabled={!stock} >agregar al carro</button>
+                <button onClick={()=>onAdd(quantity)} disabled={!stock} >agregar al carro</button>
             </div>
 
         </div>

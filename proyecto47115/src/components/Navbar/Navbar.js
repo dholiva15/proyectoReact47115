@@ -1,4 +1,4 @@
-import "../Css/estilos.css"
+import "./NavBar.css"
 
 import CartWidget from "../CartWidget/CartWidget"
 import {  Link } from 'react-router-dom'
@@ -24,12 +24,12 @@ function Navbar(){
 
 
 
-       <nav className="navbarHeader">
+           <nav className="navbarHeader">
 
-          <NavItem/>
+               <NavItem/>
             
             
-        </nav>
+          </nav>
 
         </div>
     )
