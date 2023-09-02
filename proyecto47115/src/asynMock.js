@@ -74,7 +74,7 @@ const products = [
     {
         id:8,
         name: "La Sombra del Viento",
-        category: "libro",
+        category: "libros",
         img: "https://http2.mlstatic.com/D_NQ_NP_2X_993048-MLA70775522568_072023-F.webp",
         description: "Un amanecer de 1945, un muchacho es conducido por suápadre a un misterioso lugar oculto en el corazón de laáciudad vieja: el Cementerio de los Libros Olvidados. Allí,áDaniel Sempere encuentra un libro maldito que cambia elárumbo de su vida y le arrastra a un laberinto de intrigas yásecretos enterrados en el alma oscura de la ciudad.",
         stock: 54,
@@ -111,10 +111,10 @@ export function getProducts(){
     })
 }
 
-export function getProductsById(productId){
+export function getProductsById(id){
     return new Promise((resolve)=>{
         setTimeout(()=>{
-            resolve(products.find(prod=>prod.id===productId))
+            resolve(products.find(prod=>prod.id===id))
         },500)
     }
     )

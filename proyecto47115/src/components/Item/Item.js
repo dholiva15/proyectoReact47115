@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import "./Item.css"
 
-function Item({id,name,img, price,stock} ){
+function Item({id, name, img, price, stock}){
 
     return(
 
@@ -23,7 +23,7 @@ function Item({id,name,img, price,stock} ){
                             <Link to ={`/item/${id}`}>Ver Detalles</Link>
                         </div>
                 </div>
-            </div>
+        </div>
     )
 
 

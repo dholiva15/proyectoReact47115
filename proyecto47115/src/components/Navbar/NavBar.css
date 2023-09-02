@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
    
     
 
@@ -32,12 +33,13 @@
     align-items: center;
     flex: auto;
     justify-content: space-between;
+    align-content: center;
 
 }
 
 .navbar:hover{
 
-    color: green
+    color: white;
 }
 
 .navbarHeader{

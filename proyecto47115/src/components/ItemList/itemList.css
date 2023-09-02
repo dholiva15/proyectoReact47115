@@ -1,0 +1,11 @@
+.itemList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    align-content: center;
+    align-items: center;
+    background: rgb(255, 132, 0);
+
+}
