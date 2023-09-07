@@ -3,7 +3,7 @@
 const products = [
 
     {
-        id:1,
+        id: 1,
         name: "Katamino",
         category: "juegos",
         img: "https://http2.mlstatic.com/D_NQ_NP_2X_985930-MLA44709262762_012021-F.jpg",
@@ -14,7 +14,7 @@ const products = [
     },
 
     {
-        id:2,
+        id: 2,
         name: "Party Game Just One",
         category: "juegos",
         img: "https://http2.mlstatic.com/D_NQ_NP_2X_813963-MLA48357267277_112021-F.jpg",
@@ -25,7 +25,7 @@ const products = [
     },
 
     {
-        id:3,
+        id: 3,
         name: "Figo",
         category: "juegos",
         img: "https://http2.mlstatic.com/D_NQ_NP_2X_875537-MLA52234941576_112022-F.jpg",
@@ -35,7 +35,7 @@ const products = [
     },
 
     {
-        id:4,
+        id: 4,
         name: "Alfajor de Chocolate x 12 u" ,
         category: "snacks",
         img: "https://http2.mlstatic.com/D_NQ_NP_2X_626927-MLA31662174158_082019-F.webp",
@@ -44,7 +44,7 @@ const products = [
     },
 
     {
-        id:5,
+        id: 5,
         name: "Vauquita x 18 u",
         category: "snacks",
         img: "https://http2.mlstatic.com/D_NQ_NP_2X_956500-MLA42851359302_072020-F.webp",
@@ -54,7 +54,7 @@ const products = [
     },
 
     {
-        id:6,
+        id: 6,
         name: "Biznikke x 12 u",
         category: "snacks",
         img: "https://http2.mlstatic.com/D_NQ_NP_2X_727535-MLA46468890120_062021-F.webp",
@@ -63,7 +63,7 @@ const products = [
         price:3000
     },
     {
-        id:7,
+        id: 7,
         name: "La noche de la Usina",
         category: "libros",
         img: "https://http2.mlstatic.com/D_NQ_NP_2X_620038-MLU51921076809_102022-F.webp",
@@ -72,7 +72,7 @@ const products = [
         price:7000
     },
     {
-        id:8,
+        id: 8,
         name: "La Sombra del Viento",
         category: "libros",
         img: "https://http2.mlstatic.com/D_NQ_NP_2X_993048-MLA70775522568_072023-F.webp",
@@ -81,14 +81,14 @@ const products = [
         price:8000
     },
     {
-        id:9,
+        id: 9,
         name: "El Camino del Artista",
         category: "libros",
         img: "https://http2.mlstatic.com/D_NQ_NP_2X_815950-MLA32791298180_112019-F.webp",
         description: "Autoayuda, Creatividad",
         stock:9,
         price:12343
-    },
+    }
 
 
 
